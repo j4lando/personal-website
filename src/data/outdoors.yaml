@@ -5,21 +5,21 @@ items:
   - id: "frisbee-team"
     title: "The Smoke Factory"
     description: "Intramural frisbeewas made my spring quarter! The team consists of some of my closest friends and the greatest people I know. Even though we didn't win this year, you can bet we'll be bringing it home next year. They don't want the smoke!"
-    images: ["/images/frisbee02.jpeg", "/images/frisbee01.jpeg"]
+    images: ["/nextjs-github-pages/images/frisbee02.jpeg", "/nextjs-github-pages/images/frisbee01.jpeg"]
     imageTitles: ["Team Photo", "Sandcastle Building"]
     icon: ""
     dates: ["Spring 2025"]
   - id: "hiking"
     title: "Hiking"
     description: "The outdoors make me happy. Living in Seattle is such a gift and has made me a very happy man indeed."
-    images: ["/images/enchantments02.jpeg", "/images/enchantments01.JPEG", "/images/near_rainier01.JPG", "/images/near_rainier02.JPG", "/images/old_snowy_backpack01.jpeg", "/images/mt_what01.jpeg", "/images/mt_what02.jpeg", "/images/mt_what03.jpeg"]
+    images: ["/nextjs-github-pages/images/enchantments02.jpeg", "/nextjs-github-pages/images/enchantments01.JPEG", "/nextjs-github-pages/images/near_rainier01.JPG", "/nextjs-github-pages/images/near_rainier02.JPG", "/nextjs-github-pages/images/old_snowy_backpack01.jpeg", "/nextjs-github-pages/images/mt_what01.jpeg", "/nextjs-github-pages/images/mt_what02.jpeg", "/nextjs-github-pages/images/mt_what03.jpeg"]
     imageTitles: ["Enchantments through Hike", "Echantment through Hike", "Rainier", "Locked In", "Old Snowy Backpack Trip", "Snow Hike", "Snowball!", "Snow Hike"]
     icon: ""
     dates: null
   - id: "skiing"
     title: "Skiing"
     description: "For some reason, I thought I would be to locked in to ski during college. Fortunately / Unfortunately? I brough the Texas steeze to the slopes and taught the pacific northwesterns how we get it done in the Lone Star State!"
-    images: ["/images/ski01.jpeg", "/images/ski02.jpeg", "/images/ski03.jpeg"]
+    images: ["/nextjs-github-pages/images/ski01.jpeg", "/nextjs-github-pages/images/ski02.jpeg", "/nextjs-github-pages/images/ski03.jpeg"]
     imageTitles: ["In Over Our Heads", "Lake Louise", "Last Day of the Season :("]
     icon: ""
     dates: null

@@ -86,7 +86,7 @@ export default function NavBar() {
           <a href="mailto:j4lando@icloud.com" className="font-bold text-base hover:underline" onClick={() => setOpen(false)}>Contact</a>
           <a href="https://github.com/j4lando" target="_blank" rel="noopener noreferrer" className="font-bold text-base hover:underline" onClick={() => setOpen(false)}>GitHub</a>
           <a href="https://linkedin.com/in/j4lando" target="_blank" rel="noopener noreferrer" className="font-bold text-base hover:underline" onClick={() => setOpen(false)}>LinkedIn</a>
-          <a href="/Josh_Lando_CV.pdf" target="_blank" rel="noopener noreferrer" className="font-bold text-base hover:underline" onClick={() => setOpen(false)}>Resume</a>       
+          <a href="/nextjs-github-pages/Josh_Lando_CV.pdf" target="_blank" rel="noopener noreferrer" className="font-bold text-base hover:underline" onClick={() => setOpen(false)}>Resume</a>       
         </div>
       </div>
     </>
