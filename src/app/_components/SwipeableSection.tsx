@@ -19,10 +19,9 @@ interface SwipeableSectionProps {
   textColor: string;
 }
 
-export default function SwipeableSection({ title, items, backgroundColor, textColor }: SwipeableSectionProps) {
+export default function SwipeableSection({ items, backgroundColor, textColor }: SwipeableSectionProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const scrollContainerRef = useRef<HTMLDivElement>(null);
   const imageIntervalRef = useRef<NodeJS.Timeout | null>(null);
 
   const nextItem = () => {

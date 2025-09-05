@@ -60,7 +60,7 @@ export default function Home() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Georgia O'Keeffe, Public domain, via Wikimedia Commons
+              Georgia O&apos;Keeffe, Public domain, via Wikimedia Commons
             </a>
           </div>
         </div>
@@ -90,7 +90,7 @@ export default function Home() {
           <div className="text-center lg:text-left space-y-8">
             <div className="space-y-4">
               <h2 className="text-6xl lg:text-7xl font-bold" style={{ color: headerColor }}>
-                Hey I'm Josh
+                Hey I&apos;m Josh
               </h2>
               <a 
                 href="mailto:j4lando@icloud.com"
@@ -102,7 +102,7 @@ export default function Home() {
             
             <div className="space-y-6 text-lg leading-relaxed text-gray-700">
               <p>
-                A math student at the University of Washington, Josh Lando is actively engaged in leading efforts to create green, low income housing and send a satellite to space. Passionate about sustainability, Josh is a member of Huskies for Equitable Sustainability and committed to contributing to the University of Washington's goal of carbon neutrality by 2050. He is actively seeking opportunities to explore and help the world.
+                A math student at the University of Washington, Josh Lando is actively engaged in leading efforts to create green, low income housing and send a satellite to space. Passionate about sustainability, Josh is a member of Huskies for Equitable Sustainability and committed to contributing to the University of Washington&apos;s goal of carbon neutrality by 2050. He is actively seeking opportunities to explore and help the world.
               </p>
             </div>
           </div>
