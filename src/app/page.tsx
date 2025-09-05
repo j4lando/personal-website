@@ -2,6 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import SwipeableSection from "./_components/SwipeableSection";
+import PublicationSection from "./_components/PublicationSection";
 import { loadSwipeableConfig } from "../lib/configLoader";
 
 const headerColor = "rgba(243,205,143,1)";
@@ -133,6 +134,9 @@ export default function Home() {
           textColor={outdoorsConfig.textColor}
           items={outdoorsConfig.items}
         />
+      </section>
+      <section id="publications" className="h-screen w-full snap-start">
+  <PublicationSection />
       </section>
     </div>
   );

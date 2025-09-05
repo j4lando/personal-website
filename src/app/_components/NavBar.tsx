@@ -1,6 +1,6 @@
 
 "use client";
-// import Link from "next/link";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const navBg = "rgba(243,205,143,1)";
@@ -13,11 +13,12 @@ export default function NavBar() {
   const [open, setOpen] = useState(false);
   // Animation: 0 for horizontal, 1 for vertical
   const lineAnim = open ? 1 : 0;
+
   return (
     <>
       {/* Hamburger menu button, fixed top right */}
       <button
-        className="fixed z-[101] flex items-center justify-center transition-transform duration-700"
+        className={`fixed z-[101] flex items-center justify-center transition-transform duration-700`}
         style={{
           background: navBg,
           borderRadius: "50%",
@@ -64,7 +65,7 @@ export default function NavBar() {
         </svg>
       </button>
 
-      {/* Animated oval pop-out menu, positioned relative to the circle */}
+      {/* Always render oval pop-out, animate with CSS */}
       <div
         className={`fixed z-[100] flex items-center justify-center transition-all duration-300 ${open ? "opacity-100 scale-100" : "opacity-0 scale-0"}`}
         style={{
@@ -75,21 +76,18 @@ export default function NavBar() {
           background: navBg,
           borderRadius: ovalHeight / 2,
           boxShadow: open ? "0 2px 16px rgba(0,0,0,0.10)" : "none",
+          pointerEvents: open ? "auto" : "none"
         }}
       >
-        {open && (
-          <div className="flex w-full h-full items-center justify-center px-8">
-            <div className="flex justify-evenly items-center w-full">
-              <a href="#top" className="font-bold text-base hover:underline transition-all duration-300 ease-out hover:scale-105 px-2" onClick={() => setOpen(false)}>Home</a>
-              <a href="#projects" className="font-bold text-base hover:underline transition-all duration-300 ease-out hover:scale-105 px-2" onClick={() => setOpen(false)}>Projects</a>
-              <a href="#outdoors" className="font-bold text-base hover:underline transition-all duration-300 ease-out hover:scale-105 px-2" onClick={() => setOpen(false)}>Outdoors</a>
-              <a href="mailto:j4lando@icloud.com" target="_blank" rel="noopener noreferrer" className="font-bold text-base hover:underline transition-all duration-300 ease-out hover:scale-105 px-2" onClick={() => setOpen(false)}>Contact</a>
-              <a href="https://linkedin.com/in/j4lando" target="_blank" rel="noopener noreferrer" className="font-bold text-base hover:underline transition-all duration-300 ease-out hover:scale-105 px-2" onClick={() => setOpen(false)}>LinkedIn</a>
-              <a href="https://github.com/j4lando" target="_blank" rel="noopener noreferrer" className="font-bold text-base hover:underline transition-all duration-300 ease-out hover:scale-105 px-2" onClick={() => setOpen(false)}>GitHub</a>
-              <a href="/Josh_Lando_CV.pdf" target="_blank" rel="noopener noreferrer" className="font-bold text-base hover:underline transition-all duration-300 ease-out hover:scale-105 px-2" onClick={() => setOpen(false)}>Resume</a>
-            </div>
-          </div>
-        )}
+        <div className="flex w-full h-full items-center justify-evenly">
+          <a href="#home" className="font-bold text-base hover:underline" onClick={() => setOpen(false)}>Home</a>
+          <a href="#projects" className="font-bold text-base hover:underline" onClick={() => setOpen(false)}>Projects</a>
+          <a href="#outdoors" className="font-bold text-base hover:underline" onClick={() => setOpen(false)}>Outdoors</a>
+          <a href="mailto:j4lando@icloud.com" className="font-bold text-base hover:underline" onClick={() => setOpen(false)}>Contact</a>
+          <a href="https://github.com/j4lando" target="_blank" rel="noopener noreferrer" className="font-bold text-base hover:underline" onClick={() => setOpen(false)}>GitHub</a>
+          <a href="https://linkedin.com/in/j4lando" target="_blank" rel="noopener noreferrer" className="font-bold text-base hover:underline" onClick={() => setOpen(false)}>LinkedIn</a>
+          <a href="/Josh_Lando_CV.pdf" target="_blank" rel="noopener noreferrer" className="font-bold text-base hover:underline" onClick={() => setOpen(false)}>Resume</a>       
+        </div>
       </div>
     </>
   );
