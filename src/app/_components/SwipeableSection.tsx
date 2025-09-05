@@ -102,7 +102,7 @@ export default function SwipeableSection({ items, backgroundColor, textColor }: 
                 {/* Main Image with Auto-rotation */}
                 <div className="relative h-96 rounded-3xl overflow-hidden shadow-2xl group">
                   <Image
-                    src={currentItem.images[currentImageIndex] || "/images/placeholder.jpg"}
+                    src={currentItem.images[currentImageIndex] || "./images/placeholder.jpg"}
                     alt={currentItem.title}
                     fill
                     className="object-cover transition-all duration-700 ease-out"

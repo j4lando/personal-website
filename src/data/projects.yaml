@@ -5,28 +5,28 @@ items:
  - id: "hsl"
    title: "Husky Satellite Lab"
    description: "As a kid I dreamed of being an intergalactic space warrior (I might be a fan of Star Wars). I'm still a little ways away from ruling the Milky Way, but you know what they say - 'you have to learn to crawl before you run'. I've been so incredibly lucky to be part of the amazing team at the Husky Satellite Lab (HSL)! At HSL everyone looks out for each other and that's super unique among engineering clubs. I wouldn't be where I am today without the amazing teammates and faculty mentors I've met at HSL."
-   images: ["/images/sat01.jpeg"]
+   images: ["./images/sat01.jpeg"]
    imageTitles: ["Small Satellite Conference"]
    icon: ""
    dates: ["Autumn 2024 - Present"]
  - id: "math"
    title: "So, We're Done :("
    description: "'So, We're Done' is a traditional way of ending a mathematical proof. In our honors calculus class it also took on the meaning - we're done for! Honors Calculus started with a lecture on why we should drop the class and ended with an amazing friend group forged through trial by fire. I'm excited to be continuing with many of these friends in next year's math sequence!"
-   images: ["/images/math01.jpg", "/images/math02.jpg"]
+   images: ["./images/math01.jpg", "./images/math02.jpg"]
    imageTitles: ["End of Year Photo", "Post Final Celebration"]
    icon: ""
    dates: ["Autumn 2024 - Spring 2025"]
  - id: "remote-sensing"
    title: "Geomatics"
    description: "I first met Professor Sheen when he advised us on Husky Satellite Lab’s Earth-tracking software. During that meeting, he recommended that I take his advanced surveying course to gain a deeper understanding of the hardware side of our optical navigation system. The following quarter, I found myself the only freshman among a veteran class of 2 seniors, 3 grad students, and a retired Boeing engineer. The class was amazing! We walked around in fancy vests, flew drones, and used aerial imagery to measure sublimation in UW’s West Campus. I came out of the class with a deep appreciation of the amazing applications satellites have in earth science as well as a couple new ideas about new navigation algorithms (feature mapping)."
-   images: ["/images/surveying01.jpeg", "/images/surveying02.png", "/images/surveying04.png", "/images/surveying03.png"]
+   images: ["./images/surveying01.jpeg", "./images/surveying02.png", "./images/surveying04.png", "./images/surveying03.png"]
    imageTitles: ["Discovery Park Bluff Erosion Survey", "Discovery Park Bluff Erosion Analysis", "East Campus Subsidence Analysis", "Using SFM to Find Volume"]
    icon: ""
    dates: ["Spring 2025"]
  - id: "sustainable-housing"
    title: "Husky Solar Decathlon"
    description: "I showed up to my first Husky Solar Decathlon meeting because I wanted to make a difference. I stayed because the work was fascinating and I believed what we where doing could help our Community. Seattle faces a huge housing crisis in the upcoming years. We decided to see if we could increase housing density by making backyard cottages more accesible. Our solution - Modular Design - was pretty awesome! Modular Design uses conventional stick frame construction, but introduces a building block based design process to streamline design, permitting, and supply chain. In the end, we didn’t have the resources or connections to push the idea past the competition, but I still very much believe in it. Please reach out to me if you're interested. I would be stoked to talk about our idea and potentially see how it fares in the real world."
-   images: ["/images/modular_design01.png", "/images/modular_design03.png", "/images/modular_design04.png", "/images/modular_design02.jpg"]
+   images: ["./images/modular_design01.png", "./images/modular_design03.png", "./images/modular_design04.png", "./images/modular_design02.jpg"]
    imageTitles: ["Website Concept", "Modular Design Building Blocks", "Building Block Schematics", "Example Home"]
    icon: ""
    dates: ["Autumn 2024 - Spring 2025"]
